@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void reverse_number();
+
 void algorithm1();
 
 int main(){
