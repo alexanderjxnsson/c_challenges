@@ -3,7 +3,6 @@
 void math1();
 
 int main(){
-
     return 0;
 }
 
