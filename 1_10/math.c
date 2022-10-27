@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 void math1();
-void math2();
 
 int main(){
     math2();
@@ -23,21 +22,4 @@ void math1(){
     }
 }
 
-void math2(){
-    int n = 0;
-    int const x = 51;
-    printf("Enter a value: ");
-    scanf("%d", &n);
-    if (n > x)
-    {
-        n = (n - x) * 3;
-        printf("n is greater than 51\n");
-        printf("The absolute difference * 3 is: %d\n", n);
-    }
-    else{
-        n = x - n;
-        printf("n is less than 51\n");
-        printf("The absolute difference is: %d\n", n);
-    }
-    
-}
+
